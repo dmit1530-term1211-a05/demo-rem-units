@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Rems Demo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css" >
+    </head>
+    <body>
+        <h2> Rem Units </h2>
+        <p>
+        Rem(s) inherit their sizing from the root element (the html element) in which a size is set. For example, 16px, 18px or smaller like 10px.</p>
+
+        <p>the 'r' in rem stands for root!</p>
+
+        <p>Unlike ems, rems doesn't have a compounding effect. The child element does not inherit the sizing from its parent but the always from the root size. This makes it incredibly easy to scale all of your sizing on your web pages.</p>
+
+        <p> As an example: 1rem unit = 16px which is equal to 100%. Assuming that your default browser size is 16px.</p>
+
+        <div class="parent">
+            Hi! I'm a parent element and my font-size is 18px/1.125rem as expected!
+            <div class="child">
+                I'm a child element and I'm sized at 32px/2rem as expected.
+                <div class="child child-two">
+                I'm child element too and I'm sized the same! YAY!
+                <div class="child child-three">
+                    Yet again, another child element, I'm no different in size than my other sibilings! 	\( ﾟヮﾟ)/
+                </div>
+                </div>
+            </div>
+        </div>
+    
+    </body>
+</html>
+

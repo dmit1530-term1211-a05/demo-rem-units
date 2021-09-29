@@ -1,0 +1,51 @@
+html {
+  font-size: 100%; /** default size: base of 16 **/
+  /** set base font-size to 10px **/
+  /**10px = new desired base size **/
+  /** 10/16 x 100 = 62.5% **/
+  font-size: 62.5%;
+  /** making our base divisable by 10 **/
+}
+
+body {
+    font-size: 1.6rem; /** 16px is default size **/
+    background: lightcyan;
+    margin: 0;
+    padding: 2%;
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+  
+  h2{ 
+    font-size: 2.25rem; /** 2.25rem x 16px = 36px (base of 16) **/
+    font-size: 3.6rem; /** base of 10: 36/10 **/
+   }
+  
+  div { padding: 2%; }
+  
+  .parent {
+    background: #457c7a;
+    font-size: 18px;
+    /** pixel to rems - 
+    take our desired font-size of 18px and divide by our root size of 16px (font-size of 100%) = font-size in rems **/
+    /** 18px / 16px = 1.125rem **/
+    font-size: 1.125rem; /** (base of 16)**/
+    font-size: 1.8rem; /** at a base of 10px **/
+  }
+  
+  .child {
+    background-color: #685d79;
+    font-size: 32px;
+    font-size: 2rem; /** value in rems (base of 16)**/
+    font-size: 3.2rem; /** base of 10 **/
+  }
+  
+  .child-two {
+    background-color: #ab6c82;
+  }
+  .child-three {
+    background-color: #d8737f;
+    font-size: 14px;
+    font-size: 0.875rem; /** 14/16 (base of 16) **/
+    font-size: 1.4rem; /** base of 10 **/
+  }
